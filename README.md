@@ -2,7 +2,7 @@
 
 # Modularity on the Karate Club Graph 🥋  
 **Course:** DSC212 
-**Author:** Aryaman Rana  
+**Author:** Aryaman Rana  (IMS24278)
 **Institution:** IISER TVM
 
 ---
