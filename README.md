@@ -7,7 +7,7 @@
 
 ---
 
-## 📘 Overview
+## Overview
 This repository contains a full implementation of **spectral modularity-based community detection** on the **Zachary Karate Club network**, a classic benchmark in network science.  
 The project applies **Newman’s spectral modularity method** to uncover community structure and analyze network metrics such as **degree, betweenness, closeness, and clustering centralities** through **recursive bipartitioning**.
 
@@ -15,7 +15,7 @@ The notebook explores how mathematical modularity maximization aligns with real-
 
 ---
 
-## 🎯 Objectives
+##  Objectives
 1. Understand modularity as a **quality function** for community detection.  
 2. Implement **spectral modularity bipartition** using the leading eigenvector of the modularity matrix.  
 3. Extend to **multi-community detection** via recursive bisection.  
@@ -24,7 +24,7 @@ The notebook explores how mathematical modularity maximization aligns with real-
 
 ---
 
-## 🧩 Theoretical Background
+##  Theoretical Background
 
 ### Modularity Matrix
 For an undirected graph \( G(V, E) \):
@@ -45,7 +45,7 @@ Maximizing \( Q \) is NP-hard, so we **relax** \( s \) to real values and use th
 
 ---
 
-## ⚙️ Implementation Details
+## Implementation Details
 
 ### Main Steps
 1. **Compute the modularity matrix \(B\)** for the full graph.  
@@ -58,7 +58,7 @@ Maximizing \( Q \) is NP-hard, so we **relax** \( s \) to real values and use th
 
 ---
 
-## 📊 Features Implemented
+##  Features Implemented
 ✅ Recursive spectral modularity bipartition  
 ✅ Visualizations after each split (colored communities)  
 ✅ Computation of:
@@ -74,7 +74,7 @@ Maximizing \( Q \) is NP-hard, so we **relax** \( s \) to real values and use th
 
 ---
 
-## 📈 Outputs & Visualizations
+##  Outputs & Visualizations
 - **Network graphs** with nodes colored by community at each iteration.  
 - **Metric evolution plots** showing how centrality measures change over splits.  
 - **Community size evolution** across iterations.  
@@ -82,7 +82,7 @@ Maximizing \( Q \) is NP-hard, so we **relax** \( s \) to real values and use th
 
 ---
 
-## 🧮 Key Results
+##  Key Results
 - The algorithm correctly identifies the **two main factions** in the Karate Club.  
 - **Mr. Hi (Node 0)** and **John A (Node 33)** remain the most central across all iterations.  
 - **Betweenness centrality** peaks for bridge nodes (e.g., Node 2).  
@@ -91,4 +91,4 @@ Maximizing \( Q \) is NP-hard, so we **relax** \( s \) to real values and use th
 - Accuracy vs. ground truth > **90%** (pairwise agreement).  
 
 
-## 🗂️ Repository Structure
+##  Repository Structure
