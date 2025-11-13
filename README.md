@@ -90,23 +90,5 @@ Maximizing \( Q \) is NP-hard, so we **relax** \( s \) to real values and use th
 - Final modularity ≈ *0.38–0.40*, aligning with published results.  
 - Accuracy vs. ground truth > **90%** (pairwise agreement).  
 
----
-
-## 🔬 Insights
-- Spectral modularity successfully captures real-world social structure.  
-- The eigenvalue-based stopping criterion prevents over-splitting.  
-- Dense, cohesive groups exhibit high internal modularity and low conductance.  
-- Community dynamics reflect **hierarchical organization** in networks.  
-
----
-
-## 🧰 Technologies Used
-- **Python 3.10+**  
-- **NumPy** – numerical computation  
-- **NetworkX** – graph and centrality measures  
-- **Matplotlib / Seaborn** – visualization  
-- **SciPy** – linear algebra (eigen decomposition)  
-
----
 
 ## 🗂️ Repository Structure
